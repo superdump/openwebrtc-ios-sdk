@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://twitter.com/OpenWebRTC"
   s.platform     = :ios, "7.0"
   s.source       = {
-    :git => "https://github.com/EricssonResearch/openwebrtc-ios-sdk.git",
-    :tag => "0.1.1"
+    :git => "https://github.com/superdump/openwebrtc-ios-sdk.git",
+    :branch => "no-rtx"
   }
   s.source_files = "SDK/*.{h,m}"
   s.resources = "Resources/**"
