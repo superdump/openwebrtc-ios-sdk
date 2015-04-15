@@ -1100,9 +1100,9 @@ void prepare_media_sessions_for_local_sources(bool is_dtls_client)
                                       @"video": @[
                                               @{@"encodingName": @"H264", @"type": @103, @"clockRate": @90000, @"ccmfir": @YES, @"nackpli": @YES, @"parameters":
                                                     @{@"packetizationMode": @1}},
-                                              @{@"encodingName": @"VP8", @"type": @100, @"clockRate": @90000, @"ccmfir": @YES, @"nackpli": @YES, @"nack": @YES},
+                                              @{@"encodingName": @"VP8", @"type": @100, @"clockRate": @90000, @"ccmfir": @YES, @"nackpli": @YES, @"nack": @YES}/*,
                                               @{@"encodingName": @"RTX", @"type": @120, @"clockRate": @90000, @"parameters":
-                                                    @{@"apt": @100, @"rtxTime": @200}}
+                                                    @{@"apt": @100, @"rtxTime": @200}}*/
                                               ]
                                       };
     return defaultPayloads;
